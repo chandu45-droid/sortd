@@ -1,42 +1,39 @@
-# TaskFlow — WhatsApp-First Personal Ops Assistant
+# TaskFlow — WhatsApp Personal Assistant → Business OS
 
-WhatsApp AI bot that turns chat messages into organized tasks, projects, and docs. Web dashboard for the big picture. Usage-based pricing.
+WhatsApp AI bot that turns chat into organized life. Tasks, reminders, plans, notes — for personal use first, expanding to business/team SaaS later.
 
 **Phase:** Product scoping (no code yet)
 **Builder:** Solo, bootstrapped, AI-assisted
-**Market:** India-first (WhatsApp-native audience)
+**Market:** India-first (500M+ WhatsApp users)
 
-## Product Layers
+## Product Vision
 
-| Layer | What | Priority |
-|---|---|---|
-| WhatsApp Bot | Create/update tasks, smart parsing, proactive reminders & reports | Core — THE interface |
-| Web Dashboard | Kanban, calendar, project views, reports, settings | Secondary — big picture view |
-| Docs/Notes | Quick notes via chat, organized by project, searchable on web | Lightweight wiki |
+**Free personal assistant** that hooks everyone → **Paid business mode** that converts power users.
 
-## V1 Scope
+| Stage | What | Users | Revenue |
+|---|---|---|---|
+| V1 | Personal assistant (tasks, reminders, notes, plans) | Everyone | Free (growth) |
+| V1.5 | Pro features (AI planning, reports, advanced reminders) | Power users | Freemium subscription |
+| V2 | Business mode (projects, team workspaces, shared tasks) | Freelancers, small teams | Usage-based pricing |
+| V3 | Business OS (CRM, support, invoicing, client bot) | SMBs, agencies | Full SaaS |
 
-- **Self-centric** — single user, no team features yet
-- Chat to create/manage tasks and projects
-- Bot sends: morning briefs, deadline reminders, overdue alerts, weekly reports
-- User controls all notification timing and types
-- Web dashboard for visual overview and bulk management
-- Usage-based billing (storage, AI calls, message volume)
+## V1 Scope — Personal Assistant
 
-## V1 → V2 → V3
-
-- **V1:** Personal assistant (WhatsApp + PM + Docs)
-- **V2:** Team workspaces (multi-user, assignments, shared docs)
-- **V3:** Business OS (CRM + Support + Invoicing + client-facing bot)
+- **For everyone** — gym, dates, interviews, work, errands, habits, anything
+- Chat to create tasks, set reminders, make plans, save notes
+- Bot sends: morning briefs, reminders, overdue nudges, daily wrap-ups
+- All notification timing user-customizable
+- Web dashboard for visual overview (secondary to WhatsApp)
+- Zero setup — works from first message
 
 ## Hard Rules
 
-1. **WhatsApp is primary, web is secondary.** Design bot-first, dashboard-second.
-2. **Smart defaults, zero setup.** Bot should work from first message — no onboarding wizard.
-3. **Proactive > reactive.** Bot should push updates, not wait to be asked.
-4. **Usage-based pricing is the USP.** Metering built from day 1, not bolted on.
-5. **India-first UX.** Hinglish support, INR pricing, WhatsApp-native patterns.
-6. **No feature-gating.** Every user gets every feature. Pay for resources consumed.
+1. **WhatsApp is the product.** Web is optional. Bot must work standalone.
+2. **Zero setup, instant value.** First message = first task. No onboarding.
+3. **Proactive > reactive.** Bot pushes reminders and plans without being asked.
+4. **Personal first.** No team/business features in V1. Just you and your assistant.
+5. **India-first UX.** Hinglish, INR, WhatsApp-native patterns.
+6. **Free tier must be genuinely useful.** Not crippled. Growth comes from love, not gates.
 7. **Test before claiming done.** Run the app before reporting complete.
 8. **Commit & push immediately** after changes.
 
