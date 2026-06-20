@@ -50,7 +50,7 @@ saas-pm-platform/
 ├── deliverables/              ← research deliverables (completed)
 ├── docs/                      ← product docs (scope, schemas, flows)
 └── .claude/
-    ├── agents/                ← 6 agents
+    ├── agents/                ← 7 agents (chanakya + 6 specialists)
     ├── skills/                ← reusable workflows
     └── hooks/                 ← automated checks
 ```
@@ -59,6 +59,7 @@ saas-pm-platform/
 
 | Agent | When to use |
 |---|---|
+| **chanakya** | Orchestrator. Plans work, assigns agents, tracks progress, reviews output. Start here. |
 | **product-strategist** | Feature scoping, user flows, prioritization, product decisions |
 | **system-architect** | DB schema, API design, infra, tech decisions |
 | **bot-designer** | WhatsApp conversation flows, intent parsing, proactive messaging |
